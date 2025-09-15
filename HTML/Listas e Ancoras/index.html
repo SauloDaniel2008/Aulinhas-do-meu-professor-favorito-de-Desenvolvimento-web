@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista e ancoras</title>
+  </head>
+  <body>
+    <h1>Relembrando listas</h1>
+
+    <ol type="I" start="10">
+      <!--Type é uma tag que pode estar acompanhada com o OL ou UL. Serve para mudarmos o tipo de lista que teremos. Exemplo: 1, 2, 3, 4, 5. Ou A, B, C, D, E.   Start serve para ver de onde iremos iniciar nossa lista, -->
+      <li>Agatha</li>
+      <li>Breno</li>
+      <li>Carol</li>
+      <li>Denise</li>
+      <li>Eduarda</li>
+    </ol>
+    <ul type="square">
+      <!--Square cria quadrados.  Circle cira circulos   -->
+      <li>Os Croods</li>
+      <li>One Piece</li>
+      <li>X-men revolution</li>
+    </ul>
+
+    <!--Para criar uma lista aninhada devemos criar uma lista ordenada (Ol) e escrever algo (LI) para fazer ela ser aninhada devemos abrir uma lista não ordenada (UL)-->
+
+    <ol>
+      <li>Qual a sua matéria favorita?</li>
+      <!--(li) é onde será escrito a lista. O que será visto-->
+      <ul>
+        HTML
+      </ul>
+      <ul>
+        CSS
+      </ul>
+      <ul>
+        JavaScript
+      </ul>
+    </ol>
+    <dl>
+      <!--(Dl) é usado para criar a lista de definição -->
+      <dt>HTML</dt>
+      <!--(Dt) é o que eu vou explicar-->
+      <dd>Linguagem de marcação para a criação de sites</dd>
+      <!--(DD) é usado como o 'termo' ele vai ser a explicação-->
+    </dl>
+
+    <dl>
+      <dt>CSS</dt>
+      <dd>Linguagem de estilização para deixar o site bonito</dd>
+    </dl>
+
+    <p>Aprendendo Ancoras</p>
+    <a href="Página2.html">Clique aqui. Não é golpe </a>
+
+    <!--(A) é de Ancora, que vai leva para outros sites ou abrir outra aba diferente.-->
+  </body>
+</html>

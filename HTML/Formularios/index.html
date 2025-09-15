@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Trabalho com Formulario</h1>
+    <p>Formulario simples</p>
+    <form action="">
+    <p>
+            <label for="INome">Nome:</label> <!--Label é obrigatório pra todo input, ele que vai descrever.-->
+            <Input type="text" name="Nome" id="INome" > </Input> <!--Input serve para a pessoa escrever, ele é onde  apessoa vai inserir os dados. Type é o que a pessoa irá escrever, pelo menos é aquilo que o arquivo epera receber. Name é para eu me localizar mais facil. Id é a identificação, ele serve para eu saber onde etá o meu arquivo -->
+    </p>
+    <p> <label for="ISobrenome"> Sobrenome</label>
+            <input type="text" name="Sobrenome" id="ISobrenome">
+    </p>
+    <p>
+            <label for="IEmail">Email</label>
+            <input type="email" name="Email" id="IEmail"> 
+    </p>
+    <p>
+            Senha: 
+            <label for="ISenha">    </label>
+            <input type="password" name="Senha" id="ISenha"> <!--Input type='PASSWORD' é a senha, usando ela tudo que for escrito aparecera como bolinhas -->
+    </p>
+    <p>
+            Cor favorita <br> <br>
+            <label for="IRoxo">Roxo</label>
+            <input type="radio" name="Cor" id="IRoxo">
+            <label for="IAzul">Azul</label>
+            <input type="radio" name="Cor" id="IAzul"> 
+
+    </p>
+    <p>
+        Gosto musical:
+        <input type="checkbox" name="Trap" id="Itrap">
+        <label for="ITrap">Trap</label> 
+    </p>
+    <p>
+        Curso:
+        <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Desenvolvimento Web</option>
+            <option value="">Suporte T.I</option>
+        </select>
+    </p>
+    <p>
+        <label for="IMensagem">Mensagem</label>
+        <textarea name="30" id="Imensagem"></textarea>
+    </p> 
+    PLACEHOLDER="" REQUIRED>
+        <input type="submit" value="Enviar"> <!--tudo que está dentro do VALUE é o que irá aparecer ao públco -->
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

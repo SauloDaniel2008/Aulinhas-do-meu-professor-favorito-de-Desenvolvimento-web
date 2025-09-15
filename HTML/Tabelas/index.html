@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Contruindo uma Tabela</h1>
+    <p>Tabela simples</p>
+
+    <!-- ESTRUTURA DA TABELA
+    TABLE
+        thead
+            tr, th, td
+        tbody
+            tr, th, td
+        tfoot   
+            tr, th td
+        SIGNIFICADO DAS TAGS
+        Table = tabela 
+        thead = Cabeçalho da tabela
+        tbody = Corpo da tabela
+        tfoot = Rodapé da tabela
+
+        TR = linha da tabela
+        TH = Titulo da tabela 
+        TD = Dado da tabela 
+        
+        Como preencher/ estilizar a tabela
+        Dentro do table = border="100"
+        "width" é para aumentar as bordas da tabela
+
+        caption fica fora da tabela como um "titulo"
+
+        mesclar coluna = Colspan
+        Mesclar a linha = Rowspan
+    -->
+
+    <table border="100" width="50%">
+        <Tr> 
+            <Th>Nome</Th>
+            <th>Sobrenome</th>
+            <th>Gosto musical</th>
+        </Tr>
+        <tr>
+            <td>Saulo Daniel</td>
+            <td>ALves Pires</td>
+            <td>Quase tudo menos funk</td>
+        </tr>
+
+        <tr>
+            <td>Rashel Angeles</td>
+            <td>Salazar  </td>
+            <td>Pagode</td>
+        </tr>
+
+        <tr>
+            <td>Laura</td>
+            <td>Martins</td>
+            <td>Eclético</td>
+        </tr>
+    </table>
+
+
+    <p>Tabela estruturada</p>
+
+    <table border="50" width="50%">
+        <caption>Dinheiro poupado em 2026</caption>
+        <thead>
+            <tr>
+                <tH>Mês</tH>
+                <th>Valor guardado</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$1000</td>
+            </tr>
+
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$500</td>
+            </tr>
+
+            <tr>
+                <td>Março</td>
+                <td>R$750</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+
+                <td colspan="2">Saldo: R$2.250</td>
+            </tr>
+
+
+        </tfoot>
+    </table>
+
+
+    <table border="100">
+      <caption>Notas</capition>
+
+        <tr>
+            <th>Nome</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+            <th></th>
+        </tr>
+
+        <tr>    
+            <td>Gabriel</td>
+            <td>9.5</td>
+            <td>10.0</td>
+            <td>9.0</td>
+
+
+
+
+        </tr>
+
+
+
+        
+
+    </table>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Introdução a CSS</title>
+    <style>
+        p{
+            background-color: powderblue;
+            color: darkorange;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--Cabeçalho da página-->
+      <h1>O que é CSS</h1>
+      <p>
+        CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma
+        linguagem de estilo utilizada para descrever a apresentação de
+        documentos escritos em HTML ou XML. Ela define aparência visual de uma
+        pagina web, controlando elementos como cores, fontes, espaçamento,
+        layout e desing.
+      </p>
+      <nav>
+        <a href="index.html">Página incial</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+    <main>
+      <!--Parte principal do site-->
+      <section>
+        <h2>Existem 3 maneiras de aplicar CSS</h2>
+        <!--Conteúdo independente 1-->
+        <article class="grupo">
+          <h3 style="background-color: red; color: aliceblue;">Inline</h3>
+          <p style="background-color: darkblue; color: rgb(72, 255, 0);">Na mesma linha, através de um atributo chamado style</p>
+        </article>
+        <!--Conteúdo independente 2-->
+        <article class="grupo">
+          <h3>Interno</h3>
+          <p>
+            Dentro do mesmo documento HTML, através de uma tag chamada Style
+          </p>
+        </article>
+        <!--Conteúdo independente 3 -->
+        <article class="grupo">
+          <h3>Externo</h3>
+          <p>Criando um novo arquivo .css é utilizando seletores</p>
+        </article>
+      </section>
+    </main>
+    <!--Parte final do meu site resaltando os meus direitos reservados-->
+    <footer>
+      <p>Todos os direitos - 2025</p>
+    </footer>
+  </body>
+</html>

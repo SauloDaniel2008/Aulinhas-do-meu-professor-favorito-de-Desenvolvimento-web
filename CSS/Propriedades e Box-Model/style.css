@@ -1,0 +1,52 @@
+
+/* Mudando a cor de fundo, a cor do texto e o tipo de texto*/
+.Caixa {
+    background-color: lightgreen;
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+    background-image: url(https://i.pinimg.com/736x/79/79/f2/7979f2ea300161432dfe9c6b3c7ac6b0.jpg);
+    width: 700px;
+    background-position: right;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    margin-left: 500px;
+    padding: 100px;
+    box-sizing: border-box;
+
+}
+
+/* Mudando o fundo em forma Hexadcimal*/
+.Caixa1{ 
+    background-color: #2c27d6;
+    color:#ea00ff ;
+    background-image: url(https://pbs.twimg.com/media/F3B1WDMXQAAttuB.jpg);
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Mudando o fundo, mas dessa vez na forma rgb*/
+.Caixa2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZ95nzTLA4nDM4QzDsZvF91D6bg1Q4MmOrg&s);
+    width: 500px;
+    background-position: right;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* background image URL serve para que o fundo da "caixa", vire uma imagem  */
+/* Background position vai servir para eu escolher onde eu quero que a imagem vá */
+/* Width arruma a altura da minha imagem*/
+/* Height arruma a largura da minha imagem */
+/* background repeat: no repeat; serve para a imagem não repetir inúmeras vezes*/
+/* background size: cover; serve para preencher tudo ou apenas um pequeno e seleto grupo*/
